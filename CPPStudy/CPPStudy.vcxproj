@@ -154,7 +154,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Constant.cpp" />
     <ClCompile Include="CPPStudy.cpp" />
+    <ClCompile Include="Exercise3.cpp" />
+    <ClCompile Include="Unicode.cpp" />
+    <ClCompile Include="Variables.cpp" />
+    <ClCompile Include="VariableSize.cpp" />
+    <ClCompile Include="VariableTypes.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
