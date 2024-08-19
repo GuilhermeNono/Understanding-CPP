@@ -1,21 +1,24 @@
 #include <iostream>
-//A diretiva de pré-processador #include
-//indica para incluir o arquivo de cabeçalho
-//iostream
+#include <tchar.h>
 
-//Função principal
 int main(){
-    //cout comando de saida de dados
-    //neste caso está solicitando para
-    //colocar na saida padrão(tela)
-    //a frase especificada
-    std::cout << "Ola mundo!" << std::endl;
-    //endl indica para inserir um caracter de quebra de linha na frase
+
+    std::cout << "Vou aprender a programar na linguagem C++" << std::endl;
+
     system("PAUSE");
-    //chama o shel do windows (DOS)
-    //e coloca esse comando PAUSE
+
+    _tsetlocale(LC_ALL, _T("portuguese"));
+
+    std::cout << "Vou" << std::endl;
+    std::cout << "aprender" << std::endl;
+    std::cout << "a" << std::endl;
+    std::cout << "programar" << std::endl;
+    std::cout << "na" << std::endl;
+    std::cout << "linguagem" << std::endl;
+    std::cout << "C++" << std::endl << std::endl;
+
+    std::cout << "Vou\naprender\na\nprogramar\nna\nlinguagem\nC++\n";
+
+
     return 0;
-    //retorna para o sistema operacional zero
-    //zero é o padrão para informar que tudo deu certo!
-    //assim se a funcçõa main der certo ela retorna 0
 }
