@@ -1,17 +1,24 @@
 #include <iostream>
 #include <vector>
 
-#include "solution.h"
-
 int main()
 {
-    solutions sol;
 
-    std::vector<int> params = {2,7,11,15};
+    setlocale(LC_ALL, "portuguese");
+    int numero = 234;
+    int *ptr = &numero;
 
-    const std::vector<int> result = sol.two_sum(params, 18);
+    *ptr = 1456;
 
-    std::cout << "[" << result[0] << ", " << result[1] << "]" << '\n';
+    std::cout << "\nO valor de numero é: " << *ptr;
+    std::cout << "\nO Endereço de numero é: " << &numero;
+    std::cout << "\nO Endereço do ponteiro é: " << &ptr;
+
+    int *outroPtr = ptr;
+
+    *outroPtr = *ptr + 200;
+
+    std::cout << "\n O valor de numero é: " << *outroPtr;
     
     return 0;
 }
