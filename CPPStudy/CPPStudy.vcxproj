@@ -156,9 +156,11 @@
   <ItemGroup>
     <ClCompile Include="CPPStudy.cpp" />
     <ClCompile Include="Math\Matematica.cpp" />
+    <ClCompile Include="solution.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Math\Matematica.h" />
+    <ClInclude Include="solution.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
